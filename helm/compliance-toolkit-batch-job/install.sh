@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installs all compliance-toolkit helm charts
-## Usage: ./install.sh [kubeconfig]
+# Usage: ./install.sh [kubeconfig]
 
 if [ $# -ge 1 ] ; then
   export KUBECONFIG=$1
